@@ -88,11 +88,11 @@ footer {
     text-align: center;
 }
 
-@media (min-width: 992px){
+@media (min-width: 992px) and (max-width: 2400px){
 
     body{
         background: hsl(257, 40%, 49%) url('../../images/bg-desktop.svg') no-repeat;
-        background-size: cover;
+        overflow: hidden;
     }
 
     .container {
